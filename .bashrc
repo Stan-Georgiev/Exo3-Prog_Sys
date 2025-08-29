@@ -12,9 +12,6 @@ echo "Bonjour etudiant!"
     search(){
         grep -i "mkdir" install.sh
     }
-    if (PS1 != "\u")
-    {
-        echo "Bonjour Stanislav"
-    }
+    PS1="[\h \W]\$"
 
     export PATH="$PATH:/bin"
