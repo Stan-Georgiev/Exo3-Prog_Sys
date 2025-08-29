@@ -12,3 +12,7 @@ echo "Bonjour etudiant!"
     search(){
         grep -i "texte"
     }
+    if (PS1 != "\u")
+    {
+        echo "Bonjour Stanislav"
+    }
