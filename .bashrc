@@ -10,9 +10,11 @@ echo "Bonjour etudiant!"
     }
 
     search(){
-        grep -i "texte"
+        grep -i "mkdir" install.sh
     }
     if (PS1 != "\u")
     {
         echo "Bonjour Stanislav"
     }
+
+    export PATH="$PATH:/bin"
