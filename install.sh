@@ -13,8 +13,4 @@ sudo pacman -S python-pip
 
 echo cp dotfile
 
-move()
-{
-    mkdir .config
-    cp .bashrc ~/.config
-}
+    cp .bashrc ~/
