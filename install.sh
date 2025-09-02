@@ -13,4 +13,5 @@ sudo pacman -S python-pip
 
 echo cp dotfile
 
-    cp .bashrc ~/
+    cp '.bashrc home'
+    cp '.bashrc .config

@@ -1,7 +1,9 @@
-#!/bin/bash
 echo "Bonjour etudiant!"
+       PATH+=/bin
+   
     alias ls='ls -a'
     alias ll='ls -a -l'
+   
     alias c='clear'
     alias grepc='grep --color=auto'
 
@@ -12,6 +14,5 @@ echo "Bonjour etudiant!"
     search(){
         grep -i "mkdir" install.sh
     }
-    PS1="[\h \W]\$"
+    PS1="[@\h \W]\$"
 
-    export PATH="$PATH:/bin"
